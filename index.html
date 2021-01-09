@@ -3,16 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      h3 {
-        color: bisque;
-      }
-    </style>
+    <title>Web Component</title>
   </head>
   <body>
-    <h3>Hello</h3>
-
     <user-card
       name="John Doe"
       avatar="https://randomuser.me/api/portraits/men/10.jpg"
@@ -26,8 +19,8 @@
       avatar="https://randomuser.me/api/portraits/women/10.jpg"
     >
       <div slot="email">janedoe@gmail.com</div>
-      <div slot="phone">+00 111 111 111</div></user-card
-    >
+      <div slot="phone">+00 111 111 111</div>
+    </user-card>
 
     <script src="usercard.js"></script>
   </body>
